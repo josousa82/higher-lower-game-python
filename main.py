@@ -56,6 +56,7 @@ def prompt():
             exit(0)
         else:
             score += 1
+            print(f"\nYou're right! Current score: {score}")
             person_a = person_a if correct_answer == 'A' else person_b
 
             if len(list_data) == 0:
